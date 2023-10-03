@@ -10,7 +10,7 @@ function Card({hog}) {
     return (
         <div className='pigTile'>
             <h3>{hog.name}</h3>
-            <img src={hog.image} alt='Pig pic'/>
+            <img className='pigImage' src={hog.image} alt='Pig pic'/>
             <p onClick={handleClick}>details</p>
             {displayDetails && <p>{hog.specialty}</p>}
             {displayDetails && <p>{hog.weight}</p>}

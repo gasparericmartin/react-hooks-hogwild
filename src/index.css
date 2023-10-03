@@ -91,6 +91,10 @@ ul {
   opacity: 1;
 }
 
+.pigImage {
+  max-height: 200px;
+}
+
 .minBackgroundSneak {
   position: absolute;
   width: inherit;

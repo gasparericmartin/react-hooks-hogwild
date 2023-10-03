@@ -33,6 +33,7 @@ function App() {
 			<button value='name' onClick={handleSortValue}>Sort by Name</button>
 			<button value='weight' onClick={handleSortValue}>Sort by Weight</button>
 			<Cards sortedHogs={sortedHogs} filterGreased={filterGreased} sortValue={sortValue} />
+		
 		</div>
 	);
 }
